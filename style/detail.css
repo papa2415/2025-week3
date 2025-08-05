@@ -10,14 +10,16 @@
   padding-right: 4px;
   margin-bottom: 8px;
 }
+.card-m {
+  display: none;
+}
 @media screen and (max-width: 767px) {
+  .card-m {
+    display: block;
+  }
   .col-card-6 {
     width: 100%;
     display: none;
-  }
-  .col-card-6:first-child {
-    display: block;
-    margin-bottom: 24px;
   }
 }
 .list li::after {
@@ -43,11 +45,15 @@
   padding: 12px 24px;
   border: 1px solid #dee2e6;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1071px) {
   .shoes-size a {
     width: 45.584%;
   }
 }
+.shoes-size a:hover {
+  border: 1px solid #212529;
+}
+
 .shoes-size .active {
   border: 1px solid #212529;
 }
@@ -58,6 +64,10 @@
   width: 49%;
   border: 1px solid #212529;
   padding: 12px 24px;
+}
+.like:hover {
+  background-color: #212529;
+  color: #ffffff;
 }
 @media screen and (max-width: 767px) {
   .like {
@@ -91,6 +101,14 @@
   }
   .maybe-like {
     width: 85.47%;
-    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-shrink: 0;
+  }
+  .may-like-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-left: -8px;
+    margin-right: -8px;
   }
 }

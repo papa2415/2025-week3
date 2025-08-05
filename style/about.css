@@ -19,6 +19,11 @@
   background-color: #f5fee7;
   border-radius: 12px;
 }
+@media screen and (max-width: 767px) {
+  .BlockQuote {
+    text-align: left;
+  }
+}
 .list-border-left {
   border-left: 3px solid #dee2e6;
   padding-left: 12px;

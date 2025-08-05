@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap");
 
 *,
 *::before,
@@ -120,7 +121,6 @@ i {
     flex-direction: column;
   }
 }
-
 .m-0a {
   margin: 0 auto;
 }
@@ -382,6 +382,10 @@ i {
 
 .border-bottom {
   border-bottom: 1px solid #dee2e6;
+}
+
+.radius-4 {
+  border-radius: 4px;
 }
 
 body {
